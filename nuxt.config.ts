@@ -30,18 +30,18 @@ export default defineNuxtConfig({
 
     app: {
         head: {
-            title: 'FIXME',
+            title: 'Nom Is LIVE',
             meta: [
                 {charset: 'utf-8'},
                 {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-                {hid: 'description', name: 'description', content: 'FIXME has things to say.'},
-                {hid: 'og-title', property: 'og:title', content: 'FIXME'},
-                {hid: 'og-description', property: 'og:description', content: 'FIXME has things to say.'},
+                {hid: 'description', name: 'description', content: 'Nom Is LIVE, a fiendishly difficult puzzle.'},
+                {hid: 'og-title', property: 'og:title', content: 'Nom Is LIVE'},
+                {hid: 'og-description', property: 'og:description', content: 'Nom Is LIVE, a fiendishly difficult puzzle.'},
                 {hid: 'og-type', property: 'og:type', content: 'website'},
-                {hid: 'og-site_name', property: 'og:og-site_name', content: 'FIXME'},
-                {hid: 'twitter-title', property: 'twitter:title', content: 'FIXME'},
-                {hid: 'twitter-description', property: 'twitter:description', content: 'FIXME has things to say.'},
-                {hid: 'twitter-site', property: 'twitter:site', content: 'FIXME.com'},
+                {hid: 'og-site_name', property: 'og:og-site_name', content: 'Nom Is LIVE'},
+                {hid: 'twitter-title', property: 'twitter:title', content: 'Nom Is LIVE'},
+                {hid: 'twitter-description', property: 'twitter:description', content: 'Nom Is LIVE, a fiendishly difficult puzzle.'},
+                {hid: 'twitter-site', property: 'twitter:site', content: 'nomislive.com'},
             ],
             link: [
                 {

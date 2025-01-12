@@ -5,14 +5,14 @@
 
 <template>
     <div class="flex flex-col min-h-screen">
-        <div class="p-4">Header</div>
+        <!-- header -->
 
-        <div class="content flex-grow overflow-auto">
+        <div class="flex-grow py-12 overflow-auto">
             <NuxtLayout>
                 <NuxtPage />
             </NuxtLayout>
         </div>
 
-        <div class="p-4">Footer</div>
+        <!-- footer -->
     </div>
 </template>
