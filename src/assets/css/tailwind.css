@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-blue-100;
+    }
+
+    input, textarea, button {
+        @apply p-2 border border-gray-700 block m-0 w-full my-2 text-gray-900;
+    }
+
+    input[type="submit"], button.submit {
+        @apply cursor-pointer bg-gray-700 transition-colors text-gray-200;
+
+        &:hover {
+            @apply bg-gray-900;
+        }
+    }
+}
