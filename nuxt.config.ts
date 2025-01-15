@@ -3,6 +3,7 @@ import {resolve} from 'path';
 export default defineNuxtConfig({
     alias: {
         store: resolve(__dirname, './src/store'),
+        utils: resolve(__dirname, './src/assets/js/utils'),
     },
 
     devServer: {

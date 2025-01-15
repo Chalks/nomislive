@@ -56,7 +56,7 @@ export default [
             'max-len': 0,
             'prefer-destructuring': 0,
             'vue/singleline-html-element-content-newline': 0,
-            'vue/max-attributes-per-line': ['error', {singleline: 4}],
+            'vue/max-attributes-per-line': ['error', {singleline: 8, multiline: 1}],
             'vue/no-multiple-template-root': 0,
             'no-multiple-empty-lines': ['error', {max: 2}],
             'no-console': ['error', {allow: ['warn', 'error']}],
